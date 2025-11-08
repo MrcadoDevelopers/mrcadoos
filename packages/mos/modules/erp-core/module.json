@@ -1,0 +1,9 @@
+{
+  "key": "erp-core",
+  "name": "ERP Core",
+  "version": "0.1.0",
+  "entry": "Mos\\Modules\\ERP\\ERPModuleServiceProvider",
+  "migrations": ["database/migrations"],
+  "routes": ["routes/api.php"],
+  "permissions": ["erp.products.view","erp.orders.create"]
+}
